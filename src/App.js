@@ -5,6 +5,7 @@ import ExpenseHistory from './components/ExpenseHistory';
 import ExpenseGraph from './components/ExpenseGraph';
 import MaxExpense from './components/MaxExpense';
 import './App.css';
+import { Helmet } from 'react-helmet';
 
 function App() {
 
@@ -26,6 +27,9 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title>Finance Tracker</title>
+      </Helmet>
       <header className="App-header">
         <div className='stats'>
           <InputExpense calculateTotalExp={calculateTotalExp} setExpense={setExpense} expense={expense} setFood={setFood}
