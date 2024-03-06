@@ -1,0 +1,104 @@
+.input-expense {
+  height: 350px;
+  width: 51%;
+  padding: 24px 5%;
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #282c34;
+  border-radius: 16px;
+}
+
+.input-expense * {
+  width: 100%;
+  font-size: 16px;
+}
+
+.currency {
+  display: flex;
+}
+
+.dollar {
+  width: unset;
+  margin-right: 16px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #66fcf1;
+}
+
+#input-amount {
+  height: 50px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #e3edf8;
+  background: #282c34;
+  border: 0;
+  border-bottom: 1px solid #e3edf8;
+}
+
+/* to remove up/down arrows from input number field */
+#input-amount::-webkit-outer-spin-button,
+#input-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#input-date {
+  padding: 8px;
+  margin-top: 16px;
+  color-scheme: dark;
+  text-transform: uppercase;
+  color: #e3edf8;
+  background: #282c34;
+  border: 1px solid #e3edf8;
+  border-radius: 8px;
+}
+
+select {
+  height: 40px;
+  padding: 8px;
+  margin-top: 16px;
+  color: #e3edf8;
+  background: #282c34;
+  border: 1px solid #e3edf8;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+option {
+  height: 48px;
+  padding: 8px;
+  color: #e3edf8;
+  background: #282c34;
+}
+
+#input-desc {
+  padding: 8px;
+  margin-top: 16px;
+  color: #e3edf8;
+  background: #282c34;
+  border: none;
+  border: 1px solid #e3edf8;
+  border-radius: 8px;
+}
+
+.error {
+  position: relative;
+  top: 20px;
+  margin-top: -16px;
+  color: #ff5722;
+  font-size: 12px;
+}
+
+#add-expense-btn {
+  height: 48px;
+  padding: 8px 16px;
+  margin-top: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #282c34;
+  background: #66fcf1;
+  border-radius: 8px;
+  cursor: pointer;
+}
