@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import "./styles.css"
+import "./InputExpense.scss"
 
 function InputExpense({ expense, setExpense, calculateTotalExp, largestExpense, setFood, setTravel, setShopping, setMisc }) {
 

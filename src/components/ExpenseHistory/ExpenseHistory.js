@@ -1,12 +1,11 @@
 import React from 'react'
-import "./styles.css"
+import "./ExpenseHistory.scss"
 
 function ExpenseHistory({ expense }) {
     return (
         <div className='expense-history'>
             <table>
                 <tbody>
-
                     <tr>
                         <th>Date</th>
                         <th>Amount</th>
@@ -20,7 +19,6 @@ function ExpenseHistory({ expense }) {
                         <td>{expense.desc}</td>
                     </tr>)}
                 </tbody>
-
             </table>
         </div>
     )

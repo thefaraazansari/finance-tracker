@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles.css"
+import "./TotalExpense.scss"
 
 function TotalExpense({ total }) {
     return (

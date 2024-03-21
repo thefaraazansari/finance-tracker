@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles.css"
+import "./MaxExpense.scss"
 
 function MaxExpense({ largest }) {
     return (

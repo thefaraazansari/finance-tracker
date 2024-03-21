@@ -1,4 +1,4 @@
-.max-expense {
+.total-expense {
   height: 150px;
   width: 25%;
   padding: 16px;
@@ -10,10 +10,10 @@
   color: #e3edf8;
   background: #282c34;
   border-radius: 16px;
-}
 
-.largest {
-  font-size: 60px;
-  font-weight: bold;
-  color: #66fcf1;
+  .total {
+    font-size: 60px;
+    font-weight: bold;
+    color: #66fcf1;
+  }
 }

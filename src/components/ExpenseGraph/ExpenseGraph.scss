@@ -9,17 +9,17 @@
   margin: -200px 24px 0 0;
   background: #282c34;
   border-radius: 16px;
-}
 
-.doughnut-container {
-  height: 500px;
-  width: 500px;
-}
+  .doughnut-container {
+    height: 500px;
+    width: 500px;
+  }
 
-.no-data {
-  position: absolute;
-  left: 15%;
-  width: 300px;
-  color: #66fcf1;
-  font-size: 16px;
+  .no-data {
+    position: absolute;
+    left: 15%;
+    width: 300px;
+    color: #66fcf1;
+    font-size: 16px;
+  }
 }
