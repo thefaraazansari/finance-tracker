@@ -1,0 +1,18 @@
+.stats {
+  display: flex;
+  gap: 24px;
+}
+
+.expense-stats {
+  display: flex;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .stats {
+    display: block;
+  }
+  .expense-stats {
+    width: auto;
+  }
+}

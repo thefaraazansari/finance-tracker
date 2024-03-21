@@ -4,7 +4,7 @@ import "./TotalExpense.scss"
 function TotalExpense({ total }) {
     return (
         <div className='total-expense'>
-            <div>Total Expense</div>
+            <p>Total Expense</p>
             <div className='total'>${total}</div>
         </div>
     )

@@ -10,7 +10,7 @@ function ExpenseHistory({ expense }) {
                         <th>Date</th>
                         <th>Amount</th>
                         <th>Category</th>
-                        <th>Description</th>
+                        <th>Desc.</th>
                     </tr>
                     {[...expense].reverse().slice(0, 5).map((expense, index) => <tr key={index}>
                         <td>{expense.date}</td>

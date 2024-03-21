@@ -5,20 +5,11 @@
   font-family: system-ui;
 }
 
-.App {
-  /* text-align: center; */
-}
-
 .App-header {
   background-color: #121418;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 20px 5%;
-  font-size: calc(10px + 2vmin);
+  padding: 44px 5%;
   color: white;
-}
-
-.stats {
-  display: flex;
 }

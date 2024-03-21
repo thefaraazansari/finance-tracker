@@ -1,8 +1,8 @@
 .total-expense {
   height: 150px;
-  width: 25%;
+  width: 50%;
   padding: 16px;
-  margin: 24px 24px 24px 0;
+  margin: 0 24px 24px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,9 +11,24 @@
   background: #282c34;
   border-radius: 16px;
 
+  p {
+    font-size: 32px;
+  }
+
   .total {
     font-size: 60px;
     font-weight: bold;
     color: #66fcf1;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1290px) {
+  .total-expense {
+    p {
+      font-size: 24px;
+    }
+    .total {
+      font-size: 48px;
+    }
   }
 }

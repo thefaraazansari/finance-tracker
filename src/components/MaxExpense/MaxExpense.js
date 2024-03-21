@@ -4,7 +4,7 @@ import "./MaxExpense.scss"
 function MaxExpense({ largest }) {
     return (
         <div className='max-expense'>
-            <div>Largest Expense</div>
+            <p>Largest Expense</p>
             <div className='largest'>${largest}</div>
         </div>
     )
