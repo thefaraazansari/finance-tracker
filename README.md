@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Finance Tracker Screenshot](./src/screenshot.png)
+
 ## Installation
 
 To install the dependencies, use the following command:
