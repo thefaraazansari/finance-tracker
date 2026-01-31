@@ -31,26 +31,26 @@ Try it out here 👉 [Finance Tracker by Faraaz Ansari](https://thefaraazansari.
 
 Follow these steps to run the project locally:
 
-### Install dependencies
+To install node_modules and all necessary dependencies
+
 ```bash
 npm i
 ```
-
-To install node_modules and all necessary dependencies
-
 ```bash
 npm i react-chartjs-2 chart.js
 ```
 
-`react-chartjs-2`: This is the npm package for integrating Chart.js with React. It provides React components for Chart.js, making it easier to use Chart.js within a React application.
+- `react-chartjs-2`: This is the npm package for integrating Chart.js with React. It provides React components for Chart.js, making it easier to use Chart.js within a React application.
 
-`chart.js`: This is the Chart.js library, a popular JavaScript library for creating interactive and visually appealing charts and graphs. It is used for rendering charts in the Finance Tracker project.
+- `chart.js`: This is the Chart.js library, a popular JavaScript library for creating interactive and visually appealing charts and graphs. It is used for rendering charts in the Finance Tracker project.
+
+To start the development server
 
 ```bash
 npm start
 ```
 
-Runs the app in the development mode. Open `[http://localhost:3000]` to view it in your browser.
+Open `[http://localhost:3000]` to view it in your browser.
 
 ---
  
