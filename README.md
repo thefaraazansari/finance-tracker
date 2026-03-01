@@ -1,10 +1,13 @@
 # 💰 Finance Tracker
 
-![React](https://img.shields.io/badge/React-blue)
-![Chart.js](https://img.shields.io/badge/Chart.js-orange)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-![Repo Size](https://img.shields.io/github/repo-size/thefaraazansari/finance-tracker)
-![Last Commit](https://img.shields.io/github/last-commit/thefaraazansari/finance-tracker)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+ <img width="8" />
+[![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
+ <img width="8" />
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+ <img width="8" />
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+
 
 **Finance Tracker** is a modern ReactJS application that helps you track, analyze, and visualize your personal expenses in real time 📊. With interactive charts and instant updates, managing your finances becomes simple and intuitive.
 
